@@ -46,10 +46,10 @@ setActive("")
         <div className='flex flex-col-reverse xl:flex-row w-full md:w-1/2 justify-center min-h-full gap-3 md:gap-4'>
 
             <div className='flex flex-row xl:flex-col gap-2 h-50 lg:gap-3'>
-                <img className='h-auto md:h-50 lg:h-60 xl:h-50 w-full rounded-xl ' src={product.image} alt="" onClick={()=>{
+                <img className='h-auto md:h-50 lg:h-60 xl:h-50 w-auto rounded-xl ' src={product.image} alt="" onClick={()=>{
                     setChngImg("image")
                 }}/>
-                <img className='h-auto md:h-50 lg:h-60 xl:h-50 w-full rounded-xl ' src={product.img} alt="" onClick={()=>{
+                <img className='h-auto md:h-50 lg:h-60 xl:h-50 w-auto rounded-xl ' src={product.img} alt="" onClick={()=>{
                     setChngImg("img")
                 }}/>
                 

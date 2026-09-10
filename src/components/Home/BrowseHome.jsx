@@ -54,7 +54,7 @@ const BrowseHome = () => {
 
             <div className='h-60 relative col-span-1 lg:col-span-2 cursor-pointer bg-[#C28E8D] overflow-hidden  group rounded-2xl'>
 
-              <div className="h-full absolute left-7 flex flex-col  justify-center gap-2 w-full ">
+              <div className="h-full absolute left-7 flex flex-col justify-center gap-2 w-full ">
 
                 <p className='text-lg text-white font-semibold uppercase'>Party</p>
                 <p className="text-gray-200 text-[12px] text-xs w-30 md:w-40 font-light">Trendy and glamorous outfits for parties and celebrations.</p>

@@ -25,7 +25,7 @@ return (
                     
                     <div className=' flex flex-col gap-1'>
 
-                        <p className='text-md font-normal h-[50px]'>{elem.title}</p>
+                        <p className='text-md font-normal h-[60px]'>{elem.title}</p>
                         <p className='flex items-center gap-1 text-sm font-semibold'>{elem.rating}<Star fill='#FFC633' size={15} stroke='none' /></p>
                         <p className='font-normal text-lg md:text-xl'>${elem.price}</p>
 
