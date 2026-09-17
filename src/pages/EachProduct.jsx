@@ -41,28 +41,28 @@ setActive("")
     <>
     <div className='flex flex-col justify-between md:h-[calc(100vh-80px)] lg:gap-10'>
    
-        <div className='max-w-7xl px-5 py-10 mx-auto w-full flex flex-col md:flex-row gap-15'>
+        <div className='max-w-7xl px-3 py-10 mx-auto w-full  flex flex-col md:flex-row gap-10'>
 
-        <div className='flex flex-col-reverse xl:flex-row w-full md:w-1/2 justify-center min-h-full gap-3 md:gap-4'>
+        <div className='flex flex-col-reverse xl:flex-row w-full md:w-1/2 justify-center min-h-full gap-3 md:gap-4 lg:gap-2'>
 
-            <div className='flex flex-row xl:flex-col gap-2 h-50 lg:gap-3'>
-                <img className='h-auto md:h-50 lg:h-60 xl:h-50 w-auto rounded-xl ' src={product.image} alt="" onClick={()=>{
+            <div className='flex flex-row xl:flex-col lg:w-60 lg:justify-start gap-1 w-full lg:gap-2 justify-between'>
+                <img className='h-40 lg:h-60 xl:h-50 w-50 rounded-lg object-cover' src={product.image} alt="" onClick={()=>{
                     setChngImg("image")
                 }}/>
-                <img className='h-auto md:h-50 lg:h-60 xl:h-50 w-auto rounded-xl ' src={product.img} alt="" onClick={()=>{
+                <img className='h-40 lg:h-60 xl:h-50 w-50  rounded-lg object-cover' src={product.img} alt="" onClick={()=>{
                     setChngImg("img")
                 }}/>
                 
             </div>
 
-            <div>
-                <img className='h-full md:h-120 lg:h-130 xl:h-145 w-full rounded-xl ' src={product[chngImg]} alt={product.title} />
+            <div className='w-full'>
+                <img className='h-full w-full md:h-100 lg:h-110 xl:h-145 rounded-lg ' src={product[chngImg]} alt={product.title} />
             </div>
 
         </div>
 
 
-        <div className='w-full md:w-1/2 flex h-full flex-col gap-5 md:gap-6 xl:gap-4'>
+        <div className='w-full md:w-1/2 flex h-full flex-col gap-5 md:gap-4 xl:gap-4'>
 
             <div className='flex flex-col gap-2'>
                 

@@ -20,10 +20,10 @@ const BrowseHome = () => {
             
             <div className='h-60 relative col-span-1 cursor-pointer bg-[#323C49] overflow-hidden z-10 group rounded-2xl'>
 
-              <div className="h-full absolute left-7 flex flex-col justify-center gap-3 w-full">
+              <div className="h-full absolute left-3 md:left-7 flex flex-col justify-between py-5 gap-3 w-full">
 
                 <p className='text-lg font-semibold uppercase text-white'>Casual</p>
-                <p className="text-gray-200 text-[12px] text-xs w-30 md:w-40 font-light">Casual looks for everyday comfort and effortless style.</p>
+                
 
                 <Link to={"/collection"} className="w-25 bg-white px-4 py-2 rounded-lg cursor-pointer flex items-center justify-center gap-1 text-xs" onClick={()=>{
                   selectedStyle("casual")
@@ -36,10 +36,10 @@ const BrowseHome = () => {
 
             <div className='h-60 relative col-span-1 lg:col-span-2 cursor-pointer bg-[#35291d] overflow-hidden  group rounded-2xl'>
 
-              <div className="h-full absolute left-7 flex flex-col  justify-center gap-2 w-full ">
+              <div className="h-full absolute left-3 md:left-7 py-5 flex flex-col justify-between gap-2 w-full ">
 
                 <p className='text-lg text-white font-semibold uppercase'>Formal</p>
-                <p className="text-white text-[12px] text-xs w-30 md:w-40 font-light">Sharp, refined styles for a polished and professional look.</p>
+                
 
                 <Link to={"/collection"} className="w-25 bg-white px-4 py-2 rounded-lg cursor-pointer flex items-center justify-center gap-1 text-xs" onClick={()=>{
                   setSelectedStyle("formal")
@@ -54,10 +54,10 @@ const BrowseHome = () => {
 
             <div className='h-60 relative col-span-1 lg:col-span-2 cursor-pointer bg-[#C28E8D] overflow-hidden  group rounded-2xl'>
 
-              <div className="h-full absolute left-7 flex flex-col justify-center gap-2 w-full ">
+              <div className="h-full absolute left-3 md:left-7 py-5 flex flex-col justify-between gap-2 w-full ">
 
                 <p className='text-lg text-white font-semibold uppercase'>Party</p>
-                <p className="text-gray-200 text-[12px] text-xs w-30 md:w-40 font-light">Trendy and glamorous outfits for parties and celebrations.</p>
+                
 
                 <Link to={"/collection"} className="w-25 bg-white px-4 py-2 rounded-lg cursor-pointer flex items-center justify-center gap-1 text-xs" onClick={()=>{
                   setSelectedStyle("party")
@@ -66,16 +66,16 @@ const BrowseHome = () => {
 
               </div>
 
-                <img className='h-full object-right xl:object-center w-full transition-transform duration-300 group-hover:scale-105 object-contain rounded-2xl' src={party} alt="" />
+                <img className='h-full object-right  xl:object-center w-full transition-transform duration-300 group-hover:scale-105 object-contain rounded-2xl' src={party} alt="" />
 
             </div>
 
-            <div className='h-60 relative col-span-1 cursor-pointer bg-[#26292A] overflow-hidden  group rounded-2xl'>
+            <div className='h-60 relative col-span-1 cursor-pointer  bg-[#26292A] overflow-hidden  group rounded-2xl'>
 
-                <div className="h-full absolute left-7 flex flex-col  justify-center gap-2 w-full ">
+                <div className="h-full absolute z-10 left-3 md:left-7 py-5 flex flex-col justify-between gap-2 w-full ">
 
                 <p className='text-lg text-white font-semibold uppercase'>Gym</p>
-                <p className="text-gray-200 text-[12px] text-xs w-30 md:w-40 font-light">Performance-ready activewear for your best workout.</p>
+                
 
                 <Link to={"/collection"} className="w-25 bg-white px-4 py-2 rounded-lg cursor-pointer flex items-center justify-center gap-1 text-xs" onClick={()=>{
                   setSelectedStyle("gym")

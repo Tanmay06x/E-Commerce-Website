@@ -357,7 +357,7 @@ export const products = [
 
 {
   id: 22,
-  title: "Boys Oversized Graphic Printed T-Shirt",
+  title: "Boys Oversized Printed T-Shirt",
   description:
     "A trendy oversized T-shirt featuring a bold graphic print and relaxed silhouette. Designed for comfortable everyday wear with a modern casual look.",
   price: 27,

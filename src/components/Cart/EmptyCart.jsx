@@ -13,9 +13,9 @@ const EmptyCart = () => {
 
             <div className="flex flex-col items-center justify-center">
 
-                <h2 className="text-lg sm:text-xl pb-5">Your Cart is Empty</h2>
+                <h2 className="text-xl pb-3 font-normal">Your Cart is Empty</h2>
                 <p className="text-gray-600 max-w-60 text-center text-sm sm:text-base ">Looks like you haven't made your choice yet ...</p>
-                <Link to="/collection" className="bg-black cursor-pointer px-10 sm:px-14 sm:py-3 mt-2 py-2 rounded-lg text-white">Shop Now</Link>
+                <Link to="/collection" className="bg-black cursor-pointer px-12 sm:px-14 mt-2 py-3 rounded-lg text-white">Shop Now</Link>
 
             </div>
 

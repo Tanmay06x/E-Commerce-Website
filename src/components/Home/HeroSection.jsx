@@ -6,11 +6,11 @@ const HeroSection = () => {
   return (
     <div className='w-full flex flex-col justify-between h-full lg:h-150 xl:h-[calc(100vh-80px)]'>
 
-        <div className="flex-1 flex flex-col min-h-0 md:flex-row justify-between items-center max-w-7xl gap-10 md:gap-11 lg:gap-0 w-full mx-auto p-5 sm:p-5 md:p-0 md:px-3 lg:px-5 lg:py-0 xl:p-0">
+        <div className="flex-1 flex flex-col min-h-0 md:flex-row justify-between items-center max-w-7xl gap-10 md:gap-11 lg:gap-0 w-full mx-auto px-5 pt-5 sm:p-5 md:p-0 md:px-3 lg:px-5 lg:py-0 xl:p-0">
 
             <div className="w-full md:w-1/2 h-full flex flex-col gap-5 justify-center">
 
-                <h1 className="font-extrabold text-3xl md:text-5xl max-w-xl w-full uppercase">Find clothes that match your style</h1>
+                <h1 className="font-extrabold text-3xl md:text-5xl max-w-xl w-full tracking-wide uppercase">Find clothes that match your style</h1>
 
                 <p className="text-gray-800 text-sm">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
 

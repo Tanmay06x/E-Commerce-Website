@@ -16,7 +16,7 @@ const Shopping = () => {
 
       <div className='flex flex-col gap-2'>
 
-            <h2 className='max-w-lg text-2xl md:text-3xl font-semibold w-full leading-snug'>Ready to upgrade your shopping?</h2>
+            <h2 className='max-w-lg text-xl md:text-3xl font-semibold w-full leading-snug'>Ready to upgrade your shopping?</h2>
             <p className='text-xs md:text-base text-gray-700'>Discover your next favorite look from our latest collection.</p>
 
       </div>

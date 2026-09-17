@@ -17,7 +17,7 @@ const Cart = () => {
     <div className='max-w-7xl mx-auto w-full h-full'>
         <h1 className='text-4xl h-0 p-4 font-semibold'>Your Cart</h1>
 
-        <div className='flex h-full p-2 flex-col lg:flex-row justify-between gap-5 py-10'>
+        <div className='flex h-full p-2 flex-col justify-between lg:flex-row gap-5 py-10'>
 
             <ProductCart/>
             <OrderSummary/>

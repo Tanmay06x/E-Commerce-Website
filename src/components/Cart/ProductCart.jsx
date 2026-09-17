@@ -21,14 +21,16 @@ const ProductCart = () => {
                         
                  <div className="flex gap-3">
 
+                    <div className="shrink-0">
                     <Link to={`/eachproduct/${item.id}`}>
-                        <img className="h-30 object-cover w-25 rounded" src={item.image} alt="" />
+                        <img className="h-30 md:h-35 object-cover w-25 md:w-30 overflow-hidden rounded-lg" src={item.image} alt="" />
                     </Link>
+                    </div>
 
                     <div className="flex flex-col gap-2">
-                        <p className="text-sm md:text-base ">{item.title}</p>
-                        <p className="text-xs flex">Size: {item.size}</p>
-                        <p className=" text-gray-800">${item.price}</p>
+                        <p className="text-sm md:text-base w-35 md:w-full">{item.title}</p>
+                        <p className="text-xs flex gap-1">Size:<p className="font-semibold">{item.size}</p></p>
+                        <p className=" text-gray-900 font-semibold">${item.price}</p>
                     </div>
 
                     <hr className="text-gray-400"/> 

@@ -5,13 +5,13 @@ export const ProductContext=createContext();
 
 const ProductProvider = ({children}) => {
 
-    const [selectedCategory, setSelectedCategory]=useState("all");
+   
     const [selectedStyle, setSelectedStyle]=useState("all");
     const[search, setSearch]=useState("")
 
   return (
 
-    <ProductContext.Provider value={{products, selectedCategory, setSelectedCategory,selectedStyle,setSelectedStyle,search,setSearch}}>
+    <ProductContext.Provider value={{products,selectedStyle,setSelectedStyle,search,setSearch}}>
 
       {children}
       

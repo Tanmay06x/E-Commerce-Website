@@ -284,15 +284,17 @@ const Checkout = () => {
                         
                  <div className="flex gap-3">
 
+                  <div className="shrink-0">
                     <Link to={`/eachproduct/${item.id}`}>
                         <img className="h-20 object-cover w-20 rounded" src={item.image} alt="" />
                     </Link>
+                  </div> 
 
                     <div className="flex flex-col gap-2">
 
-                        <p className=" text-xs md:text-sm ">{item.title}</p>
-                        <p className="text-xs flex">Size: {item.size}</p>
-                        <p className=" text-gray-800 text-xs md:text-sm">${item.price}</p>
+                        <p className=" text-xs md:text-sm w-40 font-medium">{item.title}</p>
+                        <p className="text-xs flex gap-1">Size: <p className="font-medium">{item.size}</p></p>
+                        <p className=" text-gray-900 text-xs md:text-sm font-medium">${item.price}</p>
 
                     </div>
 
