@@ -1,7 +1,7 @@
 import { useContext, useState} from 'react'
 import { ProductContext } from '../Context/Context'
 import { InputContext } from '../Context/Input'
-import {Search, X, SearchX, Star } from 'lucide-react'
+import {Search, X, SearchX} from 'lucide-react'
 import { Link } from 'react-router-dom'
 import MainFooter from '../Footer/MainFooter'
 import CopyRight from '../Footer/CopyRight'
@@ -99,11 +99,7 @@ const filteredProducts= products.filter((product)=>{
         
         <div className='min-h-full relative w-full '>
 
-{/* Below MD */}
-
 <Filter/>
-
-{/* MD and above MD */}
 
         </div>
 
@@ -156,7 +152,7 @@ const filteredProducts= products.filter((product)=>{
 
               <div>
 
-                <select className="px-4 py-2 border border-gray-300 rounded text-sm bg-white text-gray-900 outline-none focus:border-black cursor-pointer" value={sort} onChange={(e)=>setSort(e.target.value)}>
+                <select className="px-3 py-3 border border-gray-300 rounded text-sm bg-white text-gray-900 outline-none focus:border-black cursor-pointer" value={sort} onChange={(e)=>setSort(e.target.value)}>
                   <option value="relavent" className='bg-black text-white w-2 text-[10px]'>Sort by: Relavent</option>
                   <option value="low-to-high" className='bg-black text-white w-2  text-[10px]'>Sort by: Low to High</option>
                   <option value="high-to-low" className='bg-black text-white w-2 text-[10px]'>Sort by: High to Low</option>

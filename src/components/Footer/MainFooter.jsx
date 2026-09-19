@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const MainFooter = () => {
   return (
     <>
-    <div className='flex flex-col md:flex-row md:gap-2 lg:gap-20 pt-2 w-full justify-center items-start px-5 md:px-8 '>
+    <div className='flex flex-col gap-5 md:flex-row md:gap-2 lg:gap-20 pt-2 w-full justify-center items-start px-5 md:px-8 '>
 
             <div className='flex flex-col gap-5 md:w-1/2'>
 

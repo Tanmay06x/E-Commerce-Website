@@ -9,7 +9,7 @@ const ProductCart = () => {
 
   return (
 
-    <div id="scroll" className='rounded-xl flex flex-col overflow-x-auto w-full h-130 py-5 px-2'>
+    <div id="scroll" className='rounded-xl flex flex-col overflow-x-auto w-full h-100 py-5 px-2'>
                 
     {cart.map((item)=>{
                     
