@@ -1,5 +1,4 @@
-import { Star} from 'lucide-react'
-import { useContext} from 'react'
+import {useContext} from 'react'
 import { ProductContext } from '../Context/Context'
 import { Link } from 'react-router-dom'
 const NewArrivals = () => {
@@ -15,10 +14,10 @@ return (
 
             <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 w-full gap-4 gap-y-6'>
 
-                {products.slice(9, 13).map((elem)=>{
+                {products.slice(25,29).map((elem)=>{
                     
                 return <Link key={elem.id} to={`/eachproduct/${elem.id}`} className='w-full flex flex-col items-start gap-5'>
-                    <img className="h-[200px] md:h-[280px] cursor-pointer w-full object-cover rounded-lg transition-transform hover:scale-102 hover:shadow-lg duration-300" src={elem.image} alt={elem.title} />
+                    <img className="h-[200px] md:h-[280px] cursor-pointer w-full object-cover rounded-lg transition-transform hover:scale-101 hover:shadow-lg duration-300" src={elem.image} alt={elem.title} />
                     
                     <div className='flex flex-col gap-1'>
 

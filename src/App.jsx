@@ -6,7 +6,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Login from "./components/UserInfo/Login";
 import Signup from "./components/UserInfo/Signup";
-import EachProduct from "./pages/EachProduct";
+import EachProduct from "./components/EachProduct/EachProduct";
 import Cart from "./components/Cart/Cart";
 import NotFound from "./components/404/NotFound";
 import Layout from "./pages/Layout";

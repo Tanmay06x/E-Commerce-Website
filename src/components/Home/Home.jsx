@@ -1,8 +1,9 @@
-import BrowseHome from "./BrowseHome";
 import HeroSection from "./HeroSection";
 import NewArrivals from "./NewArrivals";
-import Reviews from "./Reviews";
 import TopSelling from "./TopSelling";
+import BrowseHome from "./BrowseHome";
+import Reviews from "./Reviews";
+
 import Footer from "../Footer/Footer";
 
 const Home = () => {

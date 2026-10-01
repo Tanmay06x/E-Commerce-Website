@@ -1,4 +1,3 @@
-import {Star} from 'lucide-react'
 import { useContext} from 'react'
 import { ProductContext } from '../Context/Context'
 import { Link } from 'react-router-dom'
@@ -17,16 +16,15 @@ return (
             
                 <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 w-full gap-4 gap-y-6'>
 
-                {products.slice(13,17).map((elem)=>{
+                {products.slice(17,21).map((elem)=>{
                     return <Link to={`/eachproduct/${elem.id}`} key={elem.id} className='w-full flex flex-col items-start gap-5'>
 
                         <img className="h-[200px] md:h-[280px] cursor-pointer w-full object-cover rounded-lg
-                        transition-transform hover:scale-102 hover:shadow-lg duration-300" src={elem.image} alt={elem.title} />
+                        transition-transform hover:scale-101 hover:shadow-lg duration-300" src={elem.image} alt={elem.title} />
                     
                     <div className=' flex flex-col gap-1'>
 
                         <p className='text-md font-normal h-[60px]'>{elem.title}</p>
-                        {/* <p className='flex items-center gap-1 text-sm font-semibold'>{elem.rating}<Star fill='#FFC633' size={15} stroke='none' /></p> */}
                         <p className='font-semibold text-lg md:text-xl'>${elem.price}</p>
 
                     </div>

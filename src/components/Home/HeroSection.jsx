@@ -37,7 +37,7 @@ const HeroSection = () => {
 
             </div>
 
-            <div className="w-auto flex items-cente h-full overflow-hidden md:w-1/2">
+            <div className="w-auto flex items-center h-full overflow-hidden md:w-1/2">
             <img className="w-full h-[400px] md:h-130 lg:h-full object-cover lg:object-center object-[70%_center]"
             src={model}
             alt="Fashion models"
