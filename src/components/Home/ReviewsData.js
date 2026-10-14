@@ -41,7 +41,7 @@ const reviews = [
     rating: 4,
     review:
       "The fabric is soft, and the stitching is neat. Delivery was on time, and customer support was helpful.",
-    verified: true,
+    verified: false,
   },
 
   {
